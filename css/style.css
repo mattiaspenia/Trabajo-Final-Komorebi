@@ -1,7 +1,6 @@
 /* footer */
 h1 {
   font-family: "Bitter", serif;
-  font-weight: bold;
 }
 
 h2 {
@@ -177,6 +176,23 @@ body {
 h3 {
   font-size: 26px;
   font-weight: bold;
+}
+
+h1 {
+  color: #faab02;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+a {
+  color: #1ac886;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #faab02;
 }
 
 /*# sourceMappingURL=style.css.map */

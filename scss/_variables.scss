@@ -1,0 +1,32 @@
+// spacing h1
+$base-padding: 1rem;
+$base-margin: 1rem;
+
+// borders
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+
+// variables, cards y tips
+
+$primary: #faab02;
+$secondary: #1ac886;
+$info: #f6c31c;
+
+h1 {
+    color: $primary;
+    font-weight: bolder;
+    margin-bottom: $base-margin;
+    padding: $base-padding;
+}
+
+a {
+    color: $secondary;
+}
+
+button {
+    color: white;
+    border: 0;
+    background: $primary;
+}
+
