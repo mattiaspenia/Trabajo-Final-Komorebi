@@ -1,0 +1,19 @@
+$colores:
+red,
+blue,
+green,
+yellow,
+orange,
+rgba(7, 138, 88, 0.623);
+
+$size:
+16px,
+18px,
+22px,
+26px,
+44px;
+
+h3 {
+    font-size: nth($size, 4);
+    font-weight: bold;
+}
