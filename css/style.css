@@ -207,10 +207,6 @@ button {
   background: #faab02;
 }
 
-.test-btn {
-  background-color: purple;
-}
-
 h1 {
   color: #faab02;
   font-weight: bolder;
@@ -257,10 +253,6 @@ button {
   color: white;
   border: 0;
   background: #faab02;
-}
-
-.test-btn {
-  background-color: purple;
 }
 
 .ok, .error {
@@ -276,5 +268,7 @@ button {
 .ok {
   background-color: #f6c31c;
 }
-
+.disclaimer {
+  display: none;
+}
 /*# sourceMappingURL=style.css.map */
