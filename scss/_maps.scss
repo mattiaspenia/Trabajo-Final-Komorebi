@@ -1,0 +1,19 @@
+// paleta de colores p about
+@import 'variables';
+
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "info": $info,
+    "white": white,
+    "purple": purple,
+    "black": black,
+);
+
+@debug map-get($colors, "info");
+@debug map-has-key($colors, "secondary");
+@debug map-merge($colors, ("purple": purple));
+
+.test-btn {
+    background-color: map-get($colors, "purple");
+}

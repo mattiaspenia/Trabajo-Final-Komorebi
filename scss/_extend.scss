@@ -1,0 +1,18 @@
+// error tienda en construccion
+@import 'maps';
+
+%mensaje {
+    border-radius: 6px;
+    padding: 20px 4px;
+    border: 1px solid gray;
+}
+
+.error {
+    background-color: aqua;
+    @extend %mensaje;
+}
+
+.ok {
+    background-color: $info;
+    @extend %mensaje;
+}

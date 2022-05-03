@@ -23,7 +23,12 @@ h1 {
 a {
     color: $secondary;
 }
-
+h4 {
+    color: black;
+    font-weight: bolder;
+    margin-bottom: $base-margin;
+    padding: $base-padding;
+}
 button {
     color: white;
     border: 0;

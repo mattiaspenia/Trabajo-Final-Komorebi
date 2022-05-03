@@ -55,6 +55,11 @@ h5 button {
   border-bottom-right-radius: 50%;
 }
 
+.parrafo {
+  font-family: "Bitter";
+  font-weight: bold;
+}
+
 #mindfull {
   background-color: rgb(12, 155, 148);
   position: relative;
@@ -189,10 +194,87 @@ a {
   color: #1ac886;
 }
 
+h4 {
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
 button {
   color: white;
   border: 0;
   background: #faab02;
+}
+
+.test-btn {
+  background-color: purple;
+}
+
+h1 {
+  color: #faab02;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+a {
+  color: #1ac886;
+}
+
+h4 {
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #faab02;
+}
+
+h1 {
+  color: #faab02;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+a {
+  color: #1ac886;
+}
+
+h4 {
+  color: black;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+  padding: 1rem;
+}
+
+button {
+  color: white;
+  border: 0;
+  background: #faab02;
+}
+
+.test-btn {
+  background-color: purple;
+}
+
+.ok, .error {
+  border-radius: 6px;
+  padding: 20px 4px;
+  border: 1px solid gray;
+}
+
+.error {
+  background-color: aqua;
+}
+
+.ok {
+  background-color: #f6c31c;
 }
 
 /*# sourceMappingURL=style.css.map */
